@@ -1,6 +1,19 @@
-streamlit>=1.28.0
-google-generativeai>=0.3.0
-PyMuPDF>=1.23.0
-python-dateutil>=2.8.0
-pandas>=2.0.0
-plotly>=5.15.0
+# Streamlit app dependencies
+streamlit
+# Google Gemini API
+google-generativeai
+# PDF processing
+pymupdf
+# Environment variable management
+python-dotenv
+# Data manipulation
+pandas
+# Plotting
+plotly
+# Date parsing
+python-dateutil
+# For deployment and compatibility
+
+# (Optional, but recommended for Streamlit Cloud)
+# streamlit-extras
+# streamlit-aggrid
